@@ -1,28 +1,28 @@
 class Hooprs < Formula
   desc "Local PII and secrets risk scanner for AI coding sessions"
   homepage "https://github.com/hoophq/rs"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hoophq/rs/releases/download/v0.2.5/hooprs_0.2.5_darwin_arm64.tar.gz"
-      sha256 "9bb77b1b43a35948185b6a72e58de2c50d806a2979e6489a901d2fca47902415"
+      url "https://github.com/hoophq/rs/releases/download/v0.2.6/hooprs_0.2.6_darwin_arm64.tar.gz"
+      sha256 "dddb29b885147a8400e016f3a3b5345d5ccc92d0571d5c3d90c35217bdb83f52"
     end
     on_intel do
-      url "https://github.com/hoophq/rs/releases/download/v0.2.5/hooprs_0.2.5_darwin_amd64.tar.gz"
-      sha256 "fe912c941f5192c4f04c932f8b0928c999622d870c925650380673c690b4b712"
+      url "https://github.com/hoophq/rs/releases/download/v0.2.6/hooprs_0.2.6_darwin_amd64.tar.gz"
+      sha256 "7f50a06dbbfa2e1c6453016efbd0571c025927812cefa61cab3eb441b6ca55ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hoophq/rs/releases/download/v0.2.5/hooprs_0.2.5_linux_arm64.tar.gz"
-      sha256 "a7315001b22d93eed29fba81570f251dfbf34aebda0e26df22be9ece428754d3"
+      url "https://github.com/hoophq/rs/releases/download/v0.2.6/hooprs_0.2.6_linux_arm64.tar.gz"
+      sha256 "d10892f2a4a3f2efefe271b67a7bab23f06d74681e9fa1ddad30dbe2ce1b06a2"
     end
     on_intel do
-      url "https://github.com/hoophq/rs/releases/download/v0.2.5/hooprs_0.2.5_linux_amd64.tar.gz"
-      sha256 "89aa50b0d9ee56b54bb8da66695c1e66f5f8c96fe275020041f3c61b114d3ff3"
+      url "https://github.com/hoophq/rs/releases/download/v0.2.6/hooprs_0.2.6_linux_amd64.tar.gz"
+      sha256 "144c1a0f969fc4323f48b3cea093d0417ccffe907479b9633c90484272dbbd90"
     end
   end
 
