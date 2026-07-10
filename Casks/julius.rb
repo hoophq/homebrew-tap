@@ -34,6 +34,12 @@ cask "julius" do
 
   binary "julius"
 
+  postflight do
+    if system_command("/usr/bin/xattr", args: ["-h"]).exit_status == 0
+      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/julius"]
+    end
+  end
+
   # No zap stanza required
 
 end
