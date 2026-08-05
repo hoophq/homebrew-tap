@@ -5,21 +5,21 @@
 class Blueprint < Formula
   desc "Read-only census of what you run on AWS, and what AWS charged for it"
   homepage "https://github.com/hoophq/blueprint"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hoophq/blueprint/releases/download/v0.3.0/blueprint_0.3.0_darwin_amd64.tar.gz"
-      sha256 "7e2fc55d731ede9e62f80ad400d7e5211cec2eb5c2ff99acd4bad015cdfab4dc"
+      url "https://github.com/hoophq/blueprint/releases/download/v0.4.0/blueprint_0.4.0_darwin_amd64.tar.gz"
+      sha256 "9c2e3233e17ae4e061fe5872ad8791d9c11ded11a3ff4268844bd41125b38ea9"
 
       define_method(:install) do
         bin.install "blueprint"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hoophq/blueprint/releases/download/v0.3.0/blueprint_0.3.0_darwin_arm64.tar.gz"
-      sha256 "c067d5c034306212eb5622bf2580cb9c079ca8fe2479cf2750577df2b5ce71ee"
+      url "https://github.com/hoophq/blueprint/releases/download/v0.4.0/blueprint_0.4.0_darwin_arm64.tar.gz"
+      sha256 "ad446f4b203aa3fa4b4dd02bdab4965c6fa40465bb77f8464e982be08fedf925"
 
       define_method(:install) do
         bin.install "blueprint"
@@ -29,15 +29,15 @@ class Blueprint < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hoophq/blueprint/releases/download/v0.3.0/blueprint_0.3.0_linux_amd64.tar.gz"
-      sha256 "3297fb84fc61c66a1315f8a559634e60b1750638960b4f6b493903ccb73d948a"
+      url "https://github.com/hoophq/blueprint/releases/download/v0.4.0/blueprint_0.4.0_linux_amd64.tar.gz"
+      sha256 "ec690c96b0da89b7aaee3511cb79705b0f99a091d40b90569bf889d1d68663cd"
       define_method(:install) do
         bin.install "blueprint"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hoophq/blueprint/releases/download/v0.3.0/blueprint_0.3.0_linux_arm64.tar.gz"
-      sha256 "ffa87db2dc5870bd8ac24c62a3fcbb612c65af6b49bd4130915f97f6403e8504"
+      url "https://github.com/hoophq/blueprint/releases/download/v0.4.0/blueprint_0.4.0_linux_arm64.tar.gz"
+      sha256 "c29f9090f427807feb6d9039e8a8074db3d56610a12e8297b6cd638957bfaeb2"
       define_method(:install) do
         bin.install "blueprint"
       end
