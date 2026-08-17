@@ -1,28 +1,28 @@
 class Alcatraz < Formula
   desc "Known-pattern PII detection CLI - in-process, no service, no network"
   homepage "https://github.com/hoophq/alcatraz"
-  version "0.19.0"
+  version "0.20.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hoophq/alcatraz/releases/download/v0.19.0/alcatraz_0.19.0_darwin_arm64.tar.gz"
-      sha256 "8dfe10b6a166aab7326c52d8626014378d49f7f1b764d65eec29652273dd74a1"
+      url "https://github.com/hoophq/alcatraz/releases/download/v0.20.0/alcatraz_0.20.0_darwin_arm64.tar.gz"
+      sha256 "e87af92ca5a3bd60d1daac60858c948de8c4b928e1323e3960d4766d8ec7c762"
     end
     on_intel do
-      url "https://github.com/hoophq/alcatraz/releases/download/v0.19.0/alcatraz_0.19.0_darwin_amd64.tar.gz"
-      sha256 "27cdf1b002421863d0b4539346e78f1c85f442d310909511a5af17f1212cae64"
+      url "https://github.com/hoophq/alcatraz/releases/download/v0.20.0/alcatraz_0.20.0_darwin_amd64.tar.gz"
+      sha256 "12066de15d568987c2871f60fe894b0a8f90ff0e4b532ebe8a59fb496e3c62e8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hoophq/alcatraz/releases/download/v0.19.0/alcatraz_0.19.0_linux_arm64.tar.gz"
-      sha256 "3e866d2f49aaa1fbf3ca55b5e1c3f922453f0cea05744f1005b166d4897dc4a0"
+      url "https://github.com/hoophq/alcatraz/releases/download/v0.20.0/alcatraz_0.20.0_linux_arm64.tar.gz"
+      sha256 "4c53700edf70367a81f5a70ce10f61ba3ff2d2866ede2f7c5847f31f9b2c2a5a"
     end
     on_intel do
-      url "https://github.com/hoophq/alcatraz/releases/download/v0.19.0/alcatraz_0.19.0_linux_amd64.tar.gz"
-      sha256 "4908808eff5d428deaa7b80c93c9aba6036768adc41e8f42b1def4f8316914f1"
+      url "https://github.com/hoophq/alcatraz/releases/download/v0.20.0/alcatraz_0.20.0_linux_amd64.tar.gz"
+      sha256 "3a1d4d45fc1214111abccd9690456be8fe1a67399583cbdc9b1b0108905d9d00"
     end
   end
 
